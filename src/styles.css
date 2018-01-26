@@ -1,7 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
-
-/*@font-face {
+@font-face {
     font-family: "Roboto-Light";
-    src: url("./fonts/Roboto/Roboto-light.ttf") format("ttf"),
+    src: url("./fonts/Roboto/Roboto-Light.ttf") format("ttf"),
     url("./fonts/Roboto/Roboto-Light.woff") format("woff");
-}*/
+}
+
+@font-face {
+    font-family: "NotoSerif-Regular";
+    src: url("./fonts/NotoSerif/NotoSerif-Regular.ttf") format("ttf"),
+    url("./fonts/NotoSerif/NotoSerif-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "NotoSerif-Italic";
+    src: url("./fonts/NotoSerif/NotoSerif-Italic.ttf") format("ttf"),
+    url("./fonts/NotoSerif/NotoSerif-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "EBGaramond-Regular";
+    src: url("./fonts/EBGaramond/EBGaramond-Regular.ttf") format("ttf"),
+    url("./fonts/EBGaramond/EBGaramond-Regular.woff") format("woff");
+}
+
+.title {
+    font-family: Roboto-Light;
+}
+
+.body {
+    font-family: Roboto-Light;
+}
+
+.menu {
+    font-family: Roboto-Light;
+}

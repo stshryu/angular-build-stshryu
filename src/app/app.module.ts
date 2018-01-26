@@ -3,11 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectDetailViewComponent } from './project-detail-view/project-detail-view.component';
+import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ProjectDetailViewComponent,
+    ContactComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
