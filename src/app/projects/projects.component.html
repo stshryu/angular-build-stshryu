@@ -3,6 +3,9 @@
         <h1>Projects</h1>
     </div>
     <div class="body">
+        <div *ngIf="projects">
+            {{projects}}
+        </div>
         <app-project-detail-view></app-project-detail-view>
     </div>
 </div>

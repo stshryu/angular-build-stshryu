@@ -8,7 +8,7 @@ import { of } from 'rxjs/observable/of';
 import { catchError, map, tap, retryWhen, filter, delay, take } from 'rxjs/operators';
 
 @Injectable()
-export class ProjectServiceService {
+export class ProjectService {
 
     constructor(private http: HttpClient) { }
 
