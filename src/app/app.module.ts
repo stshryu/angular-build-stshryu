@@ -14,20 +14,20 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AboutComponent,
-    ProjectsComponent,
-    ProjectDetailViewComponent,
-    ContactComponent,
-    NavbarComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule
-  ],
-  providers: [ProjectService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        AboutComponent,
+        ProjectsComponent,
+        ProjectDetailViewComponent,
+        ContactComponent,
+        NavbarComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpClientModule
+    ],
+    providers: [ProjectService],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
