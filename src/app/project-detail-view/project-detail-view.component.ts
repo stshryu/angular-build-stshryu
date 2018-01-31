@@ -21,7 +21,6 @@ export class ProjectDetailViewComponent implements OnInit {
     }
 
     showDetailedProject(name: string){
-        console.log('detailed view')
-        console.log(name);
+        
     }
 }
