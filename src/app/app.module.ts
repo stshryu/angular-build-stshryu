@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailViewComponent } from './project-detail-view/project-detail-view.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { WorkAboutComponent } from './work-about/work-about.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
         ProjectsComponent,
         ProjectDetailViewComponent,
         ContactComponent,
-        NavbarComponent
+        NavbarComponent,
+        WorkAboutComponent
     ],
     imports: [
         BrowserModule,

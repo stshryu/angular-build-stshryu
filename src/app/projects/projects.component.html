@@ -4,8 +4,12 @@
     </div>
     <div class="body">
         <div *ngIf="projects">
-            {{projects}}
+            <ul class="projectList">
+                <li *ngFor="let project of projects">
+                    <button (click)="getProjectDetails(project.name)">{{project.name}}</button>
+                </li>
+            </ul>
         </div>
-        <app-project-detail-view></app-project-detail-view>
+        <app-project-detail-view [projectName]="pName"></app-project-detail-view>
     </div>
 </div>
